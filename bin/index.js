@@ -29,11 +29,11 @@ cli.init = function () {
             arrayOfInputs.push(val)
           }
         })
-        
+
       console.log("current calculation:", ...arrayOfInputs);
 
       processCommandlineArgs(calculator);
-      console.log("result: " + processCommandlineArgs(calculator));
+      console.log(chalk.green("result: " + processCommandlineArgs(calculator)));
       cli.getUserInput();
 
       function processCommandlineArgs(calculator) {

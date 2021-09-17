@@ -1,0 +1,16 @@
+{
+  "name": "mycalc",
+  "version": "1.0.0",
+  "description": "my CLI PRN test",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cheryl carpenter <cherylcarpenter2015@gmail.com> (https://github.com/cherylcarpenter)",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "lodash": "^4.17.21",
+    "readline": "^1.3.0"
+  }
+}
